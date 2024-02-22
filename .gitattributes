@@ -1,3 +1,5 @@
 *.jpg filter=lfs diff=lfs merge=lfs -text
 eda/eda-dermnet.ipynb filter=lfs diff=lfs merge=lfs -text
 eda-dermnet.ipynb filter=lfs diff=lfs merge=lfs -text
+ISIC_Augmentation.ipynb filter=lfs diff=lfs merge=lfs -text
+isic_dup.ipynb filter=lfs diff=lfs merge=lfs -text
