@@ -6,6 +6,7 @@ import json
 import csv
 
 # grab environment variables
+#ENDPOINT_NAME = isic-resnet-v2-finetune-2024-03-12-18-5-2024-03-18-18-11-08-634
 ENDPOINT_NAME = os.environ['ENDPOINT_NAME']
 runtime = boto3.client('runtime.sagemaker')
 s3 = boto3.client("s3")
